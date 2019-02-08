@@ -1,0 +1,11 @@
+1. User selects read button.
+2. In the dialog box the user selects the .txt file that they would like to be encrypted.
+3. User then selects the encrypt button and types in the name of the new encypted file.
+4. Locate the .txt file and you will see it is encrypted.
+
+
+1. To Decrypt, the user selects the read button.
+2. Select the file that has been encrypted that you want to decrypt.
+3. select the decrypt button.
+4. Type in the name of the new file that is decrypted.
+5. Locate the .txt file and you will see it is decrypted to its original state.
