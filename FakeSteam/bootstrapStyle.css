@@ -1,0 +1,67 @@
+.navbar-brand img {
+position: relative;
+
+  height: 50px;
+  /* put value of image height as your need */
+  float: left;
+  margin-right: 7px;
+}
+.navbar-default {
+    background-color: #000;
+}
+
+.inputGroup{
+	width: 300px;
+	height: : 1px;
+
+
+
+}
+
+.imageSize{
+	object-fit: contain; width:200px; height:100px;
+
+}
+
+.row
+{
+	background-color: black;
+	height: 100px;
+}
+
+.buttonStyle
+{
+	background-color: black;
+color: white;
+border-color: white;
+}
+
+
+.buttonInstall
+{
+	background-color: white;
+		
+}
+
+.linedDiv
+{
+	border: 3px solid white ;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	position: relative ; left: 282px;
+	width: 970px;
+
+}
+
+.inlineDiv
+{
+	display: inline-block;
+}
+
+
+.disableScroll
+{
+	overflow-x: hidden;
+}
+
