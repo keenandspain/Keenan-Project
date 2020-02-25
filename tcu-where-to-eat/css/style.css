@@ -1,0 +1,366 @@
+/**
+ TODO(you): Write the CSS necessary to complete problem2 of HW1
+*/
+
+.header
+{
+	font-family: "Roboto Slab";
+	font-size: 36px;
+	font-weight: normal;
+	color: white;
+	position: absolute;
+	top :115px;
+	left: 500px;
+	z-index: 1;
+	max-width: 780px;
+	max-height: 100%;
+
+}
+
+header
+{
+	background-image: url("../images/header.jpg");
+	height: 250px;
+	background-size: cover;
+
+}
+
+.profilePic
+{
+	position: absolute;
+	top: 206px;
+	left:  711.75px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: auto;
+	border: 1px solid white;
+	background-size: cover;
+	background-image: url("../images/dj.png");
+}
+
+.profileText
+{
+	
+	position: absolute;
+	top:303px;
+	left:700px;
+	font-family: source sans pro, sans-serif;
+	font-size: 18px;
+	font-weight: bold ;
+	line-height: 24px;
+	color: 51,51,51;
+
+}
+
+.textItalics
+{
+	position: absolute;
+	top: 327px; 
+	left:675px;
+	line-height: 24px;
+	border: 2px solid #e6e6e6;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-style: italic;
+	color:51,51,51;
+}
+
+.firstFood
+{
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight:bold;
+	margin: 100px;
+	border: 5px;
+	width: 66.67%;
+	top: 600px;
+	height: 100px;
+	margin-left: 40px;
+
+	/*left: 256px;*/
+margin: auto;
+
+}
+
+.numberOne
+{
+	top: 263px;
+	left: 200px;
+	position: absolute;
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight:bold;
+	color: 0, 0, 0, 0.25;
+}
+
+.firstFoodAddress
+{
+	position: absolute;
+	top: 318px;
+	left: 248px;
+	color: #42b4d6;
+	margin-bottom: 20px;
+
+}
+
+.firstDescription
+{
+
+	margin: auto;
+	border: 4px;
+	width: 66.67%;
+	margin-bottom: 20px;
+
+}
+
+.pancakeImage
+{
+	margin: auto;
+	border: 4px;
+	width: 66.67%;
+	margin-bottom: 120px;
+	height: 700px;
+	background-size: cover;
+	background-image: url("../images/waffle.jpg");
+	background-repeat: no-repeat;
+
+}
+
+.recommendation
+{
+	margin: auto;
+	border: 4px;
+	width: 66.67%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.pancakeLink
+{
+	font-weight: normal;
+	font-family: none;
+	text-decoration: none;
+	color: #42b4d6;
+	font-size: 16px;
+
+}
+
+.pancakeiLink:hover
+{
+	font-weight: normal;
+	font-family: none;
+	text-decoration: underline;
+	color: #42b4d6;
+	font-size: 16px;
+
+}
+.numberTwo
+{
+	top: 1200px;
+	left: 200px;
+	position: absolute;
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight:bold;
+	color: 0, 0, 0, 0.25;
+}
+
+.SecondFood
+{
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight:bold;
+	margin: 100px;
+	border: 5px;
+	width: 66.67%;
+	top: 1100px;
+	height: 100px;
+	margin-left: 235px;
+	position: absolute;
+	/*left: 256px;*/
+
+}
+.secondFoodAddress
+{
+	position: absolute;
+	top: 1260px;
+	left: 248px;
+	color: #42b4d6;
+	margin-bottom: 20px;
+}
+
+.secondDescription
+{
+
+	margin: auto;
+	border: 4px;
+	width: 66.67%;
+	margin-bottom: 20px;
+
+}
+
+.toppersImage
+{
+	margin: auto;
+	border: 4px;
+	width: 66.67%;
+	margin-bottom: 120px;
+	height: 700px;
+	background-size: cover;
+	background-image: url("../images/toppers.jpg");
+	background-repeat: no-repeat;
+}
+
+.numberThree
+{
+	top: 2125px;
+	left: 200px;
+	position: absolute;
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight:bold;
+	color: 0, 0, 0, 0.25;
+}
+
+.ThirdFood
+{
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight:bold;
+	margin: 100px;
+	border: 5px;
+	width: 66.67%;
+	top: 2024px;
+	height: 100px;
+	margin-left: 235px;
+	position: absolute;
+	/*left: 256px;*/
+
+}
+
+.ThirdFoodAddress
+{
+	position: absolute;
+	top: 2178px;
+	left: 240px;
+	color: #42b4d6;
+	margin-bottom: 20px;
+}
+
+.ThirdDescription
+{
+
+	margin: auto;
+	border: 4px;
+	width: 66.67%;
+	margin-bottom: 20px;
+
+}
+
+.canesImage
+{
+	margin: auto;
+	border: 4px;
+	width: 66.67%;
+	margin-bottom: 120px;
+	height: 700px;
+	background-size: cover;
+	background-image: url("../images/canes.jpeg");
+	background-repeat: no-repeat;
+}
+
+.numberFour
+{
+	top: 3050px;
+	left: 200px;
+	position: absolute;
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight:bold;
+	color: 0, 0, 0, 0.25;
+}
+
+.FourthFood
+{
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight:bold;
+	margin: 100px;
+	border: 5px;
+	width: 66.67%;
+	top: 2950px;
+	height: 100px;
+	margin-left: 235px;
+	position: absolute;
+	/*left: 256px;*/
+
+}
+
+.ForthFoodAddress
+{
+	position: absolute;
+	top: 3105px;
+	left: 240px;
+	color: #42b4d6;
+	margin-bottom: 20px;
+}
+.FatShackImage
+{
+	margin: auto;
+	border: 4px;
+	width: 66.67%;
+	margin-bottom: 120px;
+	height: 700px;
+	background-size: cover;
+	background-image: url("../images/fatshack.jpg");
+	background-repeat: no-repeat;
+}
+
+.numberFive
+{
+	top: 3970px;
+	left: 200px;
+	position: absolute;
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight:bold;
+	color: 0, 0, 0, 0.25;
+}
+
+.FifthFood
+{
+	font-family: Roboto Slab, serif;
+	font-size: 36px;
+	font-weight:bold;
+	margin: 100px;
+	border: 5px;
+	width: 66.67%;
+	top: 3868px;
+	height: 100px;
+	margin-left: 235px;
+	position: absolute;
+	/*left: 256px;*/
+
+}
+
+.FifthFoodAddress
+{
+	position: absolute;
+	top: 4020px;
+	left: 240px;
+	color: #42b4d6;
+	margin-bottom: 20px;
+}
+
+.torchImage
+{
+	margin: auto;
+	border: 4px;
+	width: 66.67%;
+	margin-bottom: 120px;
+	height: 700px;
+	background-size: cover;
+	background-image: url("../images/torch.jpg");
+	background-repeat: no-repeat;
+}
